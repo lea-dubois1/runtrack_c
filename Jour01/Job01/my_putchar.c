@@ -1,3 +1,5 @@
-//
-// Created by lea on 27/11/23.
-//
+#include <unistd.h>
+
+void my_putchar(char input){
+    write(1, &input, 1);
+}
