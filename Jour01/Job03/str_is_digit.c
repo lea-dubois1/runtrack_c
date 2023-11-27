@@ -1,3 +1,14 @@
-//
-// Created by lea on 27/11/23.
-//
+#include <unistd.h>
+#include "char_is_digit.c"
+
+int str_is_digit(char *str){
+    int i = 0;
+
+    while(str[i] != 0){
+        if(!char_is_digit(str[i])){
+            return 0;
+        }
+        i++;
+    }
+    return 1;
+}
