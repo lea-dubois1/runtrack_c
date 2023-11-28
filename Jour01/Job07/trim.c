@@ -19,7 +19,7 @@ char *trim(char *src){
     int firstTimeEnd = 1;
 
     while(i >= 0){
-        if(src[i] != ' ' && src[i] != '\t' && src[i] != '\n' && src[i] != '\r' && src[i] != '\v' && src[i] != '\f'){
+        if(src[i] != ' ' && src[i] != '\t' && src[i] != '\n' && src[i] != '\r' && src[i] != '\v' && src[i] != '\f' && src[i] != 0){
             if(firstTimeEnd == 1){
                 fin = i;
                 firstTimeEnd = 0;
