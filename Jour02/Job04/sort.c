@@ -3,7 +3,7 @@
 
 char **sort(char **strs){
     char *temp = "";
-    int i = 0, j = 0, c = 0, isInPlace = 0, end = 0;
+    int i = 0, j = 0, end = 0;
 
     while(strs[end] != 0){
         end++;
