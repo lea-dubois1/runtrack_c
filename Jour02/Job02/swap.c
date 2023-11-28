@@ -1,3 +1,5 @@
-//
-// Created by lea on 28/11/23.
-//
+void swap(int *a, int *b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
