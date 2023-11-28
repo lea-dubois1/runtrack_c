@@ -1,3 +1,3 @@
-//
-// Created by lea on 28/11/23.
-//
+void divide(const int *val){
+    int result = *val / 2;
+}
