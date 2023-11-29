@@ -1,6 +1,10 @@
 #include <malloc.h>
 
 int power(int num, int pow){
+    if(num == 0){
+        return 0;
+    }
+
     if(pow == 0){
         return 1;
     }else{
