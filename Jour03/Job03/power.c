@@ -1,15 +1,15 @@
 #include <malloc.h>
 
-int my_pow(int num, int power){
-    if(power == 0){
+int power(int num, int pow){
+    if(pow == 0){
         return 1;
     }else{
-        return num * my_pow(num, power - 1);
+        return num * power(num, pow - 1);
     }
 }
 
 //int main(){
-//    printf("%i", my_pow(2, 3));
+//    printf("%i", power(2, 3));
 //
 //    return 0;
 //}
