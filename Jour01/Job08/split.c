@@ -57,10 +57,7 @@ char **split(char *src){
             j = 0;
             i += numLetters;
         }
-        else
-        {
-            i++;
-        }
+        i++;
     }
 
     result[numWords + 1] = 0;
