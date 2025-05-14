@@ -1,5 +1,5 @@
 #include <unistd.h>
 
-void my_putchare(char input){
+void my_putchar(char input){
     write(1, &input, 1);
 }
